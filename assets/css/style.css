@@ -1,4 +1,102 @@
+body{
+  background-color: #f8f8f8;
+}
+
 nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 71px;
+  align-items: center;
+  background-color: #0779E4;
+  position: fixed;
+  width: 100vw;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 70%;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-blue{
+  color: #0779e4;
+}
+.hero {
+  background-image: url(/assets/images/hero_bg.jpg);
+  height: 100vh;
+  background-size: cover;
+  /* padding-top: 70px; */
+  padding-left: 10%;
+  background-attachment: fixed;
+}
+
+.title {
+  font-size: 60px;
+}
+
+.subtitle {
+  font-size: 16px;
+}
+
+.btn-hire {
+  background-color: #0779e4;
+  color: white;
+  
+}
+
+.btn-port {
+  background-color: white;
+  color: #0779e4;
+  }
+
+.title {
+  font-size: 60px;
+}
+
+.btns {
+  height: 53px;
+  padding: 16px 24px;
+  border-radius: 4px;
+}
+
+.hero-info {
+  width: 50%;
+  padding-top: 48px;
+  height: 80%;
+}
+
+
+.about-us{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  /* justify-content: space-between; */
+}
+
+#headings{
+  padding-top: 48px;
+  column-gap: 10px;
+}
+
+.about-us-btn{
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+color: #999999;
+background-color: #ffffff;
+}
+.about-us-bg{
+  background-image: url(../images/about.jpg);
+  background-size: cover;
+  background-position: center;
+}
+/* nav {
   background-color: #0779e4;
   display: flex;
   flex-direction: row;
@@ -24,7 +122,6 @@ nav {
   background-size: cover;
   background-attachment: fixed;
 }
-
 .hero-info {
   height: 60%;
   width: 50%;
@@ -33,6 +130,7 @@ nav {
   flex-direction: column;
   justify-content: space-between;
 }
+
 
 .text-white {
   color: white;
@@ -67,4 +165,3 @@ nav {
   flex-direction: row;
   padding-left: 10%;
   /* padding-top: 10%; */
-}
